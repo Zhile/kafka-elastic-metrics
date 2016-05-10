@@ -24,9 +24,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 import static org.apache.kafka.metrics.elastic.JsonMetrics.*;
 import static org.apache.kafka.metrics.elastic.MetricsElasticModule.BulkIndexOperationHeader;
 
-/**
- * Created by dzhou on 2/21/16.
- */
 public class ElasticSearchReporter {
 
 

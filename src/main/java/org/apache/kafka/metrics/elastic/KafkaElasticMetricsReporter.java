@@ -16,9 +16,6 @@ import java.util.Map;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-/**
- * Created by dzhou on 2/20/16.
- */
 public class KafkaElasticMetricsReporter implements KafkaElasticMetricsReporterMBean, KafkaMetricsReporter {
 
     private static final Logger logger = LoggerFactory.getLogger(KafkaElasticMetricsReporter.class);

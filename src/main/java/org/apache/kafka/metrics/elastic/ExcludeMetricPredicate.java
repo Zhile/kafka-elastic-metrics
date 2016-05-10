@@ -8,9 +8,6 @@ import org.slf4j.LoggerFactory;
 
 import java.util.regex.Pattern;
 
-/**
- * Created by dzhou on 2/20/16.
- */
 public class ExcludeMetricPredicate implements MetricPredicate {
 
     private final Logger logger = LoggerFactory.getLogger(ExcludeMetricPredicate.class);

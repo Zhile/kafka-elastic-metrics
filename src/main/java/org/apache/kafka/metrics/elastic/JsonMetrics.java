@@ -5,9 +5,6 @@ import com.yammer.metrics.core.*;
 import java.util.Date;
 import java.util.Map;
 
-/**
- * Created by dzhou on 2/21/16.
- */
 public class JsonMetrics {
 
     /**

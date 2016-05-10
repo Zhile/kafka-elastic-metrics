@@ -18,9 +18,6 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by dzhou on 2/21/16.
- */
 public class MetricsElasticModule extends Module {
 
     public static final Version VERSION = new Version(3, 0, 0, "", "yammer-metrics-elastic", "yammer-metrics-elastic");

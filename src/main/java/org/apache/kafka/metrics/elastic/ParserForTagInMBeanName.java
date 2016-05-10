@@ -9,9 +9,6 @@ import java.util.regex.Pattern;
 
 import static org.apache.kafka.metrics.elastic.MetricNameFormatter.format;
 
-/**
- * Created by dzhou on 2/20/16.
- */
 public class ParserForTagInMBeanName extends Parser {
 
     public static final String SUFFIX_FOR_ALL = "_all";

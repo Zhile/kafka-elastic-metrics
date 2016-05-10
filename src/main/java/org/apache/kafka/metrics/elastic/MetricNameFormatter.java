@@ -5,9 +5,6 @@ import com.yammer.metrics.core.MetricName;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * Created by dzhou on 2/20/16.
- */
 public class MetricNameFormatter {
     static final Pattern whitespaceRegex = Pattern.compile("\\s+");
 

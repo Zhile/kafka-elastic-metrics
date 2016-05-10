@@ -8,9 +8,6 @@ import org.slf4j.LoggerFactory;
 
 import java.util.*;
 
-/**
- * Created by jiyongwang on 2/25/16.
- */
 public class ElasticSearchMetricsReporter extends AbstractPollingReporter implements MetricProcessor<Long> {
     private static final Logger logger = LoggerFactory.getLogger(ElasticSearchReporter.class);
     private static final String REPORTER_NAME = "kafka-elastic-metrics";

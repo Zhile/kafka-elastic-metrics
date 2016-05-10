@@ -6,9 +6,6 @@ import java.util.Map;
 
 import static org.apache.kafka.metrics.elastic.MetricNameFormatter.formatWithScope;
 
-/**
- * Created by dzhou on 2/20/16.
- */
 public class ParserForNoTag extends Parser {
 
     public static final String[] EMPTY_TAG = new String[]{};

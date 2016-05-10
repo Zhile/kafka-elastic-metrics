@@ -6,9 +6,6 @@ import org.slf4j.LoggerFactory;
 
 import java.util.Map;
 
-/**
- * Created by dzhou on 2/20/16.
- */
 public abstract class Parser {
 
     static final Logger logger = LoggerFactory.getLogger(Parser.class);
